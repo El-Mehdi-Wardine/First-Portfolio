@@ -22,6 +22,15 @@ body {
     margin: auto;
 }
 
+.special-header {
+    margin: 0;
+    font-size: 40px;
+    color: var(--text-color);
+    text-align: center;
+    font-weight: 800;
+    padding-bottom: 40px;
+}
+
 /* SMALL */
 @media (min-width : 768px){
     .container{
@@ -139,17 +148,9 @@ body {
     background-color: var(--second-color);
 }
 .info .container {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     color: var(--text-color);
-}
-.info .container > h3 {
-    margin: 0;
-    font-size: 40px;
-    color: var(--text-color);
-    text-align: center;
-    font-weight: 800;
-    padding-bottom: 25px;
 }
 .info .container .about-content {
     display: grid;
@@ -182,9 +183,6 @@ body {
     padding-left: 20px;
     font-size: 14px;
 }
-.info .interests {
-
-}
 .info .interests h3 {
     font-size: 25px;
     text-align: center;
@@ -214,17 +212,9 @@ body {
     background-color: var(--third-color);
 }
 .skills .container {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     color: var(--text-color);
-}
-.skills h3 {
-    margin: 0;
-    font-size: 40px;
-    color: var(--text-color);
-    text-align: center;
-    font-weight: 800;
-    padding-bottom: 25px;
 }
 .skills .text {
     display: flex;
@@ -248,6 +238,55 @@ body {
     background-color: var(--main-color);
     display: block;
 }
-
+.skills .bar .valu1 {
+    width: 80%;
+}
+.skills .bar .valu2 {
+    width: 60%;
+}
+.skills .bar .valu3 {
+    width: 5%;
+}
 
 /* END SKILLS */
+/* START WORKS */
+.works {
+    background-color: var(--second-color);
+}
+.works .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.works .works-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+.works .card {
+    background-color: var(--third-color);
+    width: 300px;
+    margin: auto;
+    padding: 20px 20px 10px;
+    border-radius: 10px;
+}
+.works .card img {
+    width: 100%;
+}
+.works .card h3 {
+    margin: 0;
+    color: var(--text-color);
+    padding: 5PX 10PX;
+}
+.works .card a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    color: var(--second-color);
+    background-color: var(--main-color);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 40px auto 10px;
+}
+/* END WORKS */
