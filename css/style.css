@@ -30,6 +30,11 @@ body {
     font-weight: 800;
     padding-bottom: 40px;
 }
+@media (max-width : 767px){
+    .special-header {
+    font-size: 35px;
+}
+}
 
 /* SMALL */
 @media (min-width : 768px){
@@ -163,6 +168,11 @@ body {
 .info .container .about-content h3 {
     font-size: 25px;
 }
+@media (max-width : 767px){
+    .info .container .about-content h3 {
+    font-size: 20px;
+    }
+}
 .info .container .about-content .info table a {
     text-decoration: none;
     color: var(--text-color);
@@ -171,11 +181,33 @@ body {
     color: var(--main-color);
     padding-left: 20px;
 }
+@media (max-width : 767px){
+    .info .container .about-content .info table tr td:first-child {
+    color: var(--main-color);
+    padding-left: 10px;
+}
+}
 .info .container .about-content .info table tr td {
     padding-bottom: 5px;
 }
+@media (max-width : 767px){
+    .info .container .about-content .info table tr td {
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+}
 .info .container .about-content .info table tr td:last-child {
     padding-left: 60px;
+}
+@media (max-width : 767px){
+    .info .container .about-content .info table tr td:last-child {
+    padding-left: 35px;
+}
+}
+@media (max-width : 767px){
+    .info .container .about-content .description {
+        border-top: 1px var(--main-color) solid;
+    }
 }
 .info .container .about-content .description p{
     letter-spacing: 1px;
@@ -183,14 +215,32 @@ body {
     padding-left: 20px;
     font-size: 14px;
 }
+@media (max-width : 767px){
+    .info .container .about-content .description p{
+    font-size: 12px;
+    padding-left: 10px;
+}
+}
 .info .interests h3 {
     font-size: 25px;
     text-align: center;
+}
+@media (max-width : 767px){
+    .info .interests h3 {
+    text-align: left;
+}
 }
 .info .interests .interests-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
+}
+@media (max-width : 767px){
+    .info .interests .interests-content {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    row-gap: 20px;
+    column-gap: 10px;
+}
 }
 .info .interests .interests-content .card {
     width: 150px;
@@ -203,8 +253,20 @@ body {
     justify-content: space-evenly;
     margin: auto;
 }
+@media (max-width : 767px){
+    .info .interests .interests-content .card {
+    width: 100px;
+    height: 80px;
+    font-size: 11px;
+}
+}
 .info .interests .interests-content .card i{
     font-size: 30px;
+}
+@media (max-width : 767px){
+    .info .interests .interests-content .card i{
+    font-size: 25px;
+}
 }
 /* END ABOUT */
 /* START SKILLS */
@@ -270,8 +332,14 @@ body {
     padding: 20px 20px 10px;
     border-radius: 10px;
 }
+@media (max-width : 767px){
+    .works .card {
+    width: 280px;
+}
+}
 .works .card img {
     width: 100%;
+    border-radius: 5px;
 }
 .works .card h3 {
     margin: 0;
