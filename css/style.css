@@ -13,7 +13,7 @@
     -webkit-box-sizing: border-box;
 }
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 .container {
     padding-left: 20px;
@@ -133,16 +133,16 @@ body {
     color: var(--main-color);
 }
 /* END LANDIG */
-/* START ABOUT */
-.about {
+/* START INFO */
+.info {
     background-color: var(--secondary-color);
 }
-.about .container {
+.info .container {
     padding-top: 50px;
     padding-bottom: 50px;
     color: var(--text-color);
 }
-.about .container > h3 {
+.info .container > h3 {
     margin: 0;
     font-size: 40px;
     color: var(--text-color);
@@ -150,7 +150,7 @@ body {
     font-weight: 800;
     padding-bottom: 25px;
 }
-.about .container .about-content {
+.info .container .about-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 20px;
@@ -158,41 +158,42 @@ body {
     border-top: var(--main-color) solid 1px;
     padding-bottom: 15px;
 }
-.about .container .about-content h3 {
+.info .container .about-content h3 {
     font-size: 25px;
 }
-.about .container .about-content .info table a {
+.info .container .about-content .info table a {
     text-decoration: none;
     color: var(--text-color);
 }
-.about .container .about-content .info table tr td:first-child {
+.info .container .about-content .info table tr td:first-child {
     color: var(--main-color);
     padding-left: 20px;
 }
-.about .container .about-content .info table tr td {
+.info .container .about-content .info table tr td {
     padding-bottom: 5px;
 }
-.about .container .about-content .info table tr td:last-child {
+.info .container .about-content .info table tr td:last-child {
     padding-left: 60px;
 }
-.about .container .about-content .description p{
+.info .container .about-content .description p{
     letter-spacing: 1px;
     line-height: 1.5;
     padding-left: 20px;
+    font-size: 14px;
 }
-.interests {
+.info .interests {
 
 }
-.interests h3 {
+.info .interests h3 {
     font-size: 25px;
     text-align: center;
 }
-.interests .interests-content {
+.info .interests .interests-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
 }
-.interests .interests-content .card {
+.info .interests .interests-content .card {
     width: 150px;
     height: 100px;
     background-color: #002945;
@@ -203,7 +204,7 @@ body {
     justify-content: space-evenly;
     margin: auto;
 }
-.interests .interests-content .card i{
+.info .interests .interests-content .card i{
     font-size: 30px;
 }
 /* END ABOUT */
